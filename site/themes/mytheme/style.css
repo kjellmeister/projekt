@@ -1,0 +1,52 @@
+/** 
+* Description: Sample theme for site which extends the Lydia grid-theme.
+*/
+@import url(../../../themes/grid/style.php);
+
+html{background-color:#FFE2B3;}
+body{background-color:#FFF;}
+#outer-wrap-header{}
+#outer-wrap-footer{background-color:#AAA}
+
+a{color:#436370}
+
+nav.navmenu {
+  display:block;
+  background:#ffffff;
+  /*border-top:1px double #000000;*/
+  border-bottom:2px solid #00CED1;
+  text-align:left;
+  width:100%;
+  position:relative;
+  margin-bottom:22px;
+  margin-top:22px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  /*-moz-box-shadow:10px 10px 5px #888888;
+  -webkit-box-shadow:10px 10px 5px #888888;
+  box-shadow:10px 10px 5px #888888;*/
+}
+nav.navmenu a {
+  padding:0.3em 1em 0 1em;
+  color:#302226;
+  font-family:Tahoma, Geneva, sans-serif;
+  text-decoration:none;
+}
+.selected {
+  background:#ffffff;
+  background-color:#00CED1;
+  border-color:#00CED1;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+nav.navmenu a:hover {
+  background:#ffffff;
+  background-color:#00CED1;
+  border-color:#00CED1;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+a, a:visited { color:#00CED1; }
